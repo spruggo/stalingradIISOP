@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stalingrad Pocket II Sequence of Play</title>
+<style>
+    body {
+        background-color: #dff5d8; /* light green */
+        color: #555; /* grey text */
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        max-width: 1000px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    h1, h2, h3, h4 {
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    }
+    ul, ol {
+        list-style-type: none;
+        padding-left: 20px;
+    }
+    li {
+        margin: 6px 0;
+        padding: 8px;
+        background: #f5fff2; /* softer green box */
+        border-radius: 8px;
+        box-shadow: 2px 2px 6px rgba(0,0,0,0.15);
+    }
+    .section {
+        margin: 20px 0;
+        padding: 15px;
+        background: #e9fbe4;
+        border-radius: 12px;
+        box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+    }
+    input[type="checkbox"] {
+        margin-right: 8px;
+    }
+    .reset-container {
+        text-align: center;
+        margin-top: 30px;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #6c9e6d;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+        transition: background 0.3s;
+    }
+    button:hover {
+        background-color: #588a59;
+    }
+</style>
+</head>
+<body>
+
+<h1>Sequence of Play for <em>Stalingrad Pocket II</em></h1>
+
+<div class="section">
+    <h2>I. Pre-Turn</h2>
+    <ol>
+        <li><label><input type="checkbox"> <strong>Weather Determination Phase</strong></label>
+            <ul>
+                <li><label><input type="checkbox"> Determine the weather type by rolling two dice (1.6a).</label></li>
+                <li><label><input type="checkbox"> No die roll modifier on the first turn (1.6b).</label></li>
+                <li><label><input type="checkbox"> Weather affects Air Points and next roll (1.6c).</label></li>
+            </ul>
+        </li>
+        <li><label><input type="checkbox"> <strong>Air Point Determination Phase</strong></label>
+            <ul>
+                <li><label><input type="checkbox"> Roll one die modified by weather for Air Units (1.11).</label></li>
+                <li><label><input type="checkbox"> Air Units are available for this turn only (1.11).</label></li>
+            </ul>
+        </li>
+    </ol>
+</div>
+
+<div class="section">
+    <h2>II. Soviet Turn</h2>
+    <ol>
+        <li><label><input type="checkbox"> <strong>Soviet Movement and Reserve & DAM Designation Phase</strong></label>
+            <ul>
+                <li><label><input type="checkbox"> Place reinforcements in entry hexes (supplied, full MA).</label></li>
+                <li><label><input type="checkbox"> Place Reserve Markers on eligible units (1.7a).</label></li>
+                <li><label><input type="checkbox"> Artillery may change modes before moving (1.10a).</label></li>
+                <li><label><input type="checkbox"> Units may move up to MA.</label></li>
+                <li><label><input type="checkbox"> Conduct overruns (2 MPs, see 6.0c).</label></li>
+                <li><label><input type="checkbox"> Place Determined Action Markers (1.12a).</label></li>
+            </ul>
+        </li>
+        <li><label><input type="checkbox"> <strong>Axis Reaction Phase</strong></label>
+            <ul>
+                <li><label><input type="checkbox"> Axis may release reserves (1.7e).</label></li>
+                <li><label><input type="checkbox"> Air Units may be committed (1.11a).</label></li>
+                <li><label><input type="checkbox"> Reaction Movement & Overruns (1.7f).</label></li>
+                <li><label><input type="checkbox"> Reaction Barrages (1.7f).</label></li>
+            </ul>
+        </li>
+        <li><label><input type="checkbox"> <strong>Soviet Barrage Phase</strong></label>
+            <ul>
+                <li><label><input type="checkbox"> Resolve Barrages (1.10c, 1.10d).</label></li>
+                <li><label><input type="checkbox"> No Barrages if OOS (1.8e).</label></li>
+            </ul>
+        </li>
+        <li><label><input type="checkbox"> <strong>Soviet Combat Phase</strong></label>
+            <ul>
+                <li><label><input type="checkbox"> Resolve combats (HQs may shift odds).</label></li>
+                <li><label><input type="checkbox"> Air Units & DAMs may be committed.</label></li>
+                <li><label><input type="checkbox"> Advance After Combat (10.0).</label></li>
+            </ul>
+        </li>
+        <li><label><input type="checkbox"> <strong>Soviet Supply Phase</strong></label>
+            <ul>
+                <li><label><input type="checkbox"> Check supply for all HQs and units (1.8).</label></li>
+                <li><label><input type="checkbox"> Apply OOS penalties and Attrition if needed.</label></li>
+            </ul>
+        </li>
+        <li><label><input type="checkbox"> <strong>Soviet Exploitation Phase</strong></label>
+            <ul>
+                <li><label><input type="checkbox"> Exploit-capable units may move/overrun.</label></li>
+                <li><label><input type="checkbox"> No movement if beginning in EZOC.</label></li>
+            </ul>
+        </li>
+        <li><label><input type="checkbox"> Soviet Reserve Marker Removal Phase</label></li>
+        <li><label><input type="checkbox"> Soviet DG Marker Removal</label></li>
+    </ol>
+</div>
+
+<div class="section">
+    <h2>III. Axis Turn</h2>
+    <ol>
+        <li><label><input type="checkbox"> <strong>Axis Reserve Marker Removal Phase</strong></label></li>
+        <li><label><input type="checkbox"> <strong>Axis Movement and Reserve & DAM Designation Phase</strong></label>
+            <ul>
+                <li><label><input type="checkbox"> Place Reserve Markers on eligible units (1.7a).</label></li>
+                <li><label><input type="checkbox"> Place Determined Action Markers (1.12a).</label></li>
+                <li><label><input type="checkbox"> Air Units may conduct Air Lift (1.11c).</label></li>
+                <li><label><input type="checkbox"> Artillery may change modes before moving (1.10a).</label></li>
+                <li><label><input type="checkbox"> Units may move up to MA.</label></li>
+                <li><label><input type="checkbox"> Conduct overruns (2 MPs, see 6.0c).</label></li>
+            </ul>
+        </li>
+        <li><label><input type="checkbox"> <strong>Axis Barrage Phase</strong></label>
+            <ul>
+                <li><label><input type="checkbox"> Resolve Barrages (1.10c, 1.10d).</label></li>
+                <li><label><input type="checkbox"> Air Units may be committed (1.11b).</label></li>
+            </ul>
+        </li>
+        <li><label><input type="checkbox"> <strong>Axis Combat Phase</strong></label>
+            <ul>
+                <li><label><input type="checkbox"> Resolve combats (HQs may shift odds).</label></li>
+                <li><label><input type="checkbox"> Air Units & DAMs may be committed.</label></li>
+                <li><label><input type="checkbox"> Advance After Combat if possible.</label></li>
+            </ul>
+        </li>
+        <li><label><input type="checkbox"> <strong>Axis Supply Phase</strong></label>
+            <ul>
+                <li><label><input type="checkbox"> Check supply for HQs and units (1.8).</label></li>
+                <li><label><input type="checkbox"> Use Supply Points if needed (1.8c).</label></li>
+                <li><label><input type="checkbox"> Apply OOS penalties and Attrition if needed.</label></li>
+            </ul>
+        </li>
+        <li><label><input type="checkbox"> <strong>Axis Exploitation Phase</strong></label>
+            <ul>
+                <li><label><input type="checkbox"> Exploit-capable and Reserve units may move/overrun.</label></li>
+                <li><label><input type="checkbox"> Axis Exploit Barrages may be conducted.</label></li>
+            </ul>
+        </li>
+        <li><label><input type="checkbox"> Axis DG Marker Removal</label></li>
+    </ol>
+</div>
+
+<div class="section">
+    <h2>IV. Turn End Phase</h2>
+    <ol>
+        <li><label><input type="checkbox"> <strong>Turn Marker Advance:</strong> Advance the Turn Marker to complete the game-turn.</label></li>
+    </ol>
+</div>
+
+<div class="reset-container">
+    <button onclick="resetChecklist()">Reset Checklist</button>
+</div>
+
+<script>
+function resetChecklist() {
+    document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
+}
+</script>
+
+</body>
+</html>
